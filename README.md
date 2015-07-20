@@ -5,7 +5,7 @@ Boilerplate for bdd / tdd / testing with Tape + Testem + Webpack + React
 recompiles + re-runs test on file updates!
 
 
-![](react-tape-test-suite.png)
+![](run-test-animated.gif)
 
 
 
