@@ -9,7 +9,7 @@ recompiles + re-runs test on file updates!
 
 
 
-## Instalation
+## Installation
 
 ```javascript
 npm install //install dependencies
@@ -31,7 +31,7 @@ npm run server-test //starts testem + tape
 
 [testem](https://github.com/airportyh/testem) - test runner
 
-[webpack](https://github.com/airportyh/testem) - a bundler for javascrip
+[webpack](https://github.com/airportyh/testem) - a bundler for JavaScript
 
 [webpack-dev-server](https://github.com/webpack/webpack-dev-server) - updates browsers on changes
 
