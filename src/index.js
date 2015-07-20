@@ -1,6 +1,7 @@
 import React from 'react';
+import Hello from 'components/hello'
 
 React.render(
-  <h1>Hello, world!</h1>,
+  <Hello />,
   document.getElementById('app')
 );

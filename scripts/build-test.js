@@ -3,7 +3,9 @@
 var pkg = require('../package.json');
 
 require('glob')(
-  'src/**/*.spec.js',
+  '*.spec.js',
+  {matchBase:true},
+  
   function globTestFiles(err, files) {
     if(err) {
       throw err;
