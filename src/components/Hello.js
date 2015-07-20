@@ -5,8 +5,8 @@ var Hello = React.createClass({
 	render() {
 		return (
 			<div>
-				<h1>Hello Mum!!</h1>
-			< /div>
+				<h1>Hello Mumm!!</h1>
+			</div>
     )}
 });
 

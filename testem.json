@@ -1,7 +1,9 @@
 {
   "framework": "tap",
   "src_files": [
-    "src/**/*spec.js"
+    "src/__test__/*spec.js",
+    "src/*js",
+    "src/**/*js"
   ],
   "before_tests": "npm run build-test",
   "serve_files": ["build/test.js"],
