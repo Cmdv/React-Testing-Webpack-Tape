@@ -1,6 +1,6 @@
 # React-Testing-Webpack-Tape
 
-Boilerplate for bdd / tdd / testing with Tape + Webpack + React
+Boilerplate for bdd / tdd / testing with Tape + Testem + Webpack + React
 
 recompiles + re-runs test on file updates!
 

@@ -18,6 +18,7 @@
     "react",
     "webpack",
     "tape",
+    "testem",
     "testing",
     "bdd",
     "babel",
