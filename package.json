@@ -6,9 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "build": "webpack --progress --colors --config webpack.production.config.js",
-    "build-test": "node scripts/build-test",
     "clean": "rm -rf build/",
-    "server-test": "testem"
+    "test": "testem"
   },
   "repository": {
     "type": "git",
@@ -32,9 +31,11 @@
     "url": "https://github.com/Cmdv/React-Testing-Webpack-Tape/issues"
   },
   "homepage": "https://github.com/Cmdv/React-Testing-Webpack-Tape#readme",
-  "dependencies": {
-    "react": "^0.12.2"
+
+  "peerDependencies": {
+    "react": "*"
   },
+
   "devDependencies": {
     "babel-core": "^5.7.4",
     "babel-loader": "^5.3.2",

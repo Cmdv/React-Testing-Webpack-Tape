@@ -3,13 +3,12 @@ var path = require('path');
 
 module.exports = {
   entry: {
-    app: ['./src/index'],
-    test: ['./src/__test__/index']
+    test: [path.join(__dirname, 'webpack.test.bootstrap.js')]
   },
 
   output: {
     path: path.join(__dirname, './build'),
-    filename: '[name].js',
+    filename: '[name].js'
   },
 
   module: {
@@ -18,7 +17,7 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel'
-      },
+      }
     ]
   },
 
@@ -27,11 +26,7 @@ module.exports = {
     modulesDirectories: ['src', 'node_modules']
   },
 
-  plugins: [
-    new webpack.optimize.DedupePlugin()
-  ],
-
   node: {
     fs: 'empty'
   }
-}
+};

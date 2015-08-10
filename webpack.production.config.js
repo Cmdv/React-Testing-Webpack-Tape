@@ -3,12 +3,12 @@ var path = require('path');
 
 module.exports = {
   entry: {
-    app: [ './src/index' ]
+    app: ['./src/index']
   },
 
   output: {
     path: path.join(__dirname, './build'),
-    filename: '[name].js',
+    filename: '[name].js'
   },
 
   module: {
@@ -17,7 +17,7 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel'
-      },
+      }
     ]
   },
 
@@ -30,4 +30,4 @@ module.exports = {
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin()
   ]
-}
+};

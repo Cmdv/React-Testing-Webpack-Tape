@@ -21,8 +21,11 @@ npm install //install dependencies
 ```javascript
 npm start //start webpack-dev-server with react-hot-loader
 ```
-```javascript
-npm run server-test //starts testem + tape
+
+Open another terminal tab and then :
+
+```javascript 
+npm test //start testem + tape
 ```
 
 ## Dependencies
