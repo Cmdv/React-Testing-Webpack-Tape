@@ -32,10 +32,6 @@
   },
   "homepage": "https://github.com/Cmdv/React-Testing-Webpack-Tape#readme",
 
-  "peerDependencies": {
-    "react": "*"
-  },
-
   "devDependencies": {
     "babel-core": "^5.7.4",
     "babel-loader": "^5.3.2",
@@ -43,6 +39,7 @@
     "install": "^0.1.8",
     "node-libs-browser": "^0.5.2",
     "path": "^0.11.14",
+    "react": "0.13",
     "react-hot-loader": "^1.1.7",
     "tape": "^4.0.1",
     "testem": "^0.7.5",
